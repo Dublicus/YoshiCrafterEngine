@@ -1,6 +1,7 @@
 package mod_support_stuff;
 
 import flixel.FlxSprite;
+import vlc.MP4Handler
 
 class MP4Video {
     public static function playMP4(path:String, callback:Void->Void, repeat:Bool = false, ?canvasWidth:Int, ?canvasHeight:Int, fillScreen:Bool = false):FlxSprite {
